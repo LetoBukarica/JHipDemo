@@ -62,7 +62,6 @@
     "protractor-jasmine2-screenshot-reporter": "0.3.2",
     "proxy-middleware": "0.15.0",
     "run-sequence": "1.2.2",
-    "generator-jhipster-ionic": "2.1.6",
 
     "yargs": "5.0.0"
   },

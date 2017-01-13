@@ -24,17 +24,12 @@
       "protractor"
     ],
     "jhiPrefix": "jhi",
-    "otherModules": [
-      {
-        "name": "generator-jhipster-ionic",
-        "version": "2.1.6"
-      }
-    ],
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": [
       "en",
       "sr"
-    ]
+    ],
+    "serviceDiscoveryType": false
   }
 }

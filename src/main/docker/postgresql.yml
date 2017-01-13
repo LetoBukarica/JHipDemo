@@ -1,0 +1,12 @@
+version: '2'
+services:
+    jhipdemo-postgresql:
+        container_name: jhipdemo-postgresql
+        image: postgres:9.5.4
+        # volumes:
+        #     - ~/volumes/jhipster/jhipdemo/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=jhipdemo
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
